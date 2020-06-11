@@ -1915,7 +1915,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .home-banner-area {
   background: url(../img/home-banner-bg.png) center;
-  background-size: cover; }
+  background-size: cover;
+  padding: 3em 1em 1em }
   .home-banner-area .banner-img {
     text-align: right; }
     @media (max-width: 1440px) {
