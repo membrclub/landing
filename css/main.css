@@ -1916,7 +1916,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .home-banner-area {
   background: url(../img/home-banner-bg.png) center;
   background-size: cover;
-  padding: 3em 1em 1em }
+  padding: 4em 1em 2em }
   .home-banner-area .banner-img {
     text-align: right; }
     @media (max-width: 1440px) {
@@ -2278,6 +2278,53 @@ body.mobile-nav-active #mobile-nav-toggle {
   @media (max-width: 800px) {
     .single-price {
       margin-bottom: 30px; } }
+  
+      .single-price-off {
+        background-color: #e2e2e2;
+        text-align: center;
+        border-radius: 20px;
+        box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08); }
+        @media (max-width: 991px) {
+          .single-price-off {
+            margin-bottom: 30px; } }
+        .single-price-off .top-sec {
+          border-bottom: 1px solid #cccccc;
+          padding: 40px 40px 22px 40px;
+          text-align: left;
+          -webkit-transition: all 0.3s ease 0s;
+          -moz-transition: all 0.3s ease 0s;
+          -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s; }
+          .single-price-off .top-sec br {
+            display: none; }
+          @media (max-width: 1024px) {
+            .single-price-off .top-sec br {
+              display: block; } }
+        .single-price-off .end-sec {
+          -webkit-transition: all 0.3s ease 0s;
+          -moz-transition: all 0.3s ease 0s;
+          -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s;
+          padding: 40px; }
+          .single-price-off .end-sec ul li {
+            margin-bottom: 20px; }
+        .single-price-off .price-btn {
+          background: #666666;
+          color: #e2e2e2;
+          border-radius: 10;
+          box-shadow: none;
+          border: 1px solid #666666;
+          -webkit-transition: all 0.3s ease 0s;
+          -moz-transition: all 0.3s ease 0s;
+          -o-transition: all 0.3s ease 0s;
+          transition: all 0.3s ease 0s; }
+        .single-price-off:hover {
+          cursor: pointer; }
+          .single-price-off:hover .price-btn {
+            color: #fff; }
+        @media (max-width: 800px) {
+          .single-price-off {
+            margin-bottom: 30px; } }
 
 .whole-wrap {
   background-color: #fff; }
