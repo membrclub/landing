@@ -1980,7 +1980,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     .home-banner-content h1 {
       margin-top: 50px; } }
 .home-banner-content p {
-  margin-bottom: 45px; }
+  margin-bottom: 20px; }
 
 .about-area {
   position: relative;
@@ -2051,7 +2051,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .feature-area {
   position: relative;
-  padding: 70px 0 70px;
+  padding: 80px 0 70px;
  }
   .feature-area:after {
     content: "";
