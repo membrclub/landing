@@ -48,11 +48,11 @@ $(document).ready(function() {
       $('body').append('<div id="mobile-body-overly"></div>');
 
       $(document).on('click', '#mobile-nav-toggle', function(e) {
-      $('body').toggleClass('mobile-nav-active');
-      $('#mobile-menu').toggle();
-      $('#mobile-menu-x').toggle();
-      $('#mobile-body-overly').toggle();
-      });
+        $('body').toggleClass('mobile-nav-active');
+        $('#mobile-menu').toggle();
+        $('#mobile-menu-x').toggle();
+        $('#mobile-body-overly').toggle();
+        });
 
       $(document).click(function(e) {
       var container = $("#mobile-nav, #mobile-nav-toggle");
@@ -96,7 +96,8 @@ $(document).ready(function() {
 
         if ($('body').hasClass('mobile-nav-active')) {
           $('body').removeClass('mobile-nav-active');
-          $('#mobile-nav-toggle i').toggleClass('lnr-times lnr-bars');
+          $('#mobile-menu').toggle();
+          $('#mobile-menu-x').toggle();
           $('#mobile-body-overly').fadeOut();
         }
 
