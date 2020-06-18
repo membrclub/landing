@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -44,12 +44,12 @@
 
 @font-face {
   font-family: Gilroy;
-  src: url(../fonts/Gilroy-ExtraBold.ttf)
+  src: url(../fonts/Gilroy-ExtraBold.otf)
 }
 
 @font-face {
   font-family: Gilroy;
-  src: url(../fonts/Gilroy-Light.ttf)
+  src: url(../fonts/Gilroy-Light.otf)
 }
 
 body {
@@ -2278,7 +2278,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   @media (max-width: 800px) {
     .single-price {
       margin-bottom: 30px; } }
-  
+
       .single-price-off {
         background-color: #e2e2e2;
         text-align: center;
